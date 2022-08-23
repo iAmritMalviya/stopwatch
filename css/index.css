@@ -1,0 +1,146 @@
+
+  
+  #timer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17d4fe;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+  }
+  .heading {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17d4fe;
+    font-size: 30px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+  }
+
+
+/* CSS */
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  /* position: relative; */
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color:  #17d4fe;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+
+.button-53 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  /* position: relative; */
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-53:after {
+  content: "";
+  background-color:  #17d4fe;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-53:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-53 {
+    padding: 13px 50px 13px;
+  }
+}
+.button-54 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  /* position: relative; */
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:after {
+  content: "";
+  background-color: #17d4fe;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-54:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 13px 50px 13px;
+  }
+}
